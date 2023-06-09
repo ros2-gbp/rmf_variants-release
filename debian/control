@@ -1,0 +1,12 @@
+Source: ros-rolling-rmf-dev
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rmf-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ament-cmake-catch2, ros-rolling-menge-vendor, ros-rolling-nlohmann-json-schema-validator-vendor, ros-rolling-pybind11-json-vendor, ros-rolling-rmf-api-msgs, ros-rolling-rmf-battery, ros-rolling-rmf-building-map-msgs, ros-rolling-rmf-building-map-tools, ros-rolling-rmf-building-sim-common, ros-rolling-rmf-building-sim-gz-classic-plugins, ros-rolling-rmf-building-sim-gz-plugins, ros-rolling-rmf-charger-msgs, ros-rolling-rmf-dispenser-msgs, ros-rolling-rmf-door-msgs, ros-rolling-rmf-fleet-adapter, ros-rolling-rmf-fleet-adapter-python, ros-rolling-rmf-fleet-msgs, ros-rolling-rmf-ingestor-msgs, ros-rolling-rmf-lift-msgs, ros-rolling-rmf-obstacle-msgs, ros-rolling-rmf-robot-sim-common, ros-rolling-rmf-robot-sim-gz-classic-plugins, ros-rolling-rmf-robot-sim-gz-plugins, ros-rolling-rmf-scheduler-msgs, ros-rolling-rmf-site-map-msgs, ros-rolling-rmf-task, ros-rolling-rmf-task-msgs, ros-rolling-rmf-task-ros2, ros-rolling-rmf-task-sequence, ros-rolling-rmf-traffic, ros-rolling-rmf-traffic-editor, ros-rolling-rmf-traffic-editor-assets, ros-rolling-rmf-traffic-editor-test-maps, ros-rolling-rmf-traffic-examples, ros-rolling-rmf-traffic-msgs, ros-rolling-rmf-traffic-ros2, ros-rolling-rmf-utils, ros-rolling-rmf-visualization, ros-rolling-rmf-visualization-building-systems, ros-rolling-rmf-visualization-fleet-states, ros-rolling-rmf-visualization-floorplans, ros-rolling-rmf-visualization-msgs, ros-rolling-rmf-visualization-navgraphs, ros-rolling-rmf-visualization-obstacles, ros-rolling-rmf-visualization-rviz2-plugins, ros-rolling-rmf-visualization-schedule, ros-rolling-rmf-websocket, ros-rolling-rmf-workcell-msgs, ros-rolling-ros-workspace
+Description: A package to aggregate the packages required for a minimal installation of Open-RMF
