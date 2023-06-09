@@ -1,0 +1,8 @@
+ros-humble-rmf-dev (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Define rmf_dev variant
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.org>  Tue, 06 Jun 2023 16:00:00 -0000
+
+
