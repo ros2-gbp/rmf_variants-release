@@ -1,0 +1,12 @@
+Source: ros-iron-rmf-dev
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-rmf-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ament-cmake-catch2, ros-iron-menge-vendor, ros-iron-nlohmann-json-schema-validator-vendor, ros-iron-pybind11-json-vendor, ros-iron-rmf-api-msgs, ros-iron-rmf-battery, ros-iron-rmf-building-map-msgs, ros-iron-rmf-building-map-tools, ros-iron-rmf-building-sim-common, ros-iron-rmf-building-sim-gz-classic-plugins, ros-iron-rmf-building-sim-gz-plugins, ros-iron-rmf-charger-msgs, ros-iron-rmf-dispenser-msgs, ros-iron-rmf-door-msgs, ros-iron-rmf-fleet-adapter, ros-iron-rmf-fleet-adapter-python, ros-iron-rmf-fleet-msgs, ros-iron-rmf-ingestor-msgs, ros-iron-rmf-lift-msgs, ros-iron-rmf-obstacle-msgs, ros-iron-rmf-robot-sim-common, ros-iron-rmf-robot-sim-gz-classic-plugins, ros-iron-rmf-robot-sim-gz-plugins, ros-iron-rmf-scheduler-msgs, ros-iron-rmf-site-map-msgs, ros-iron-rmf-task, ros-iron-rmf-task-msgs, ros-iron-rmf-task-ros2, ros-iron-rmf-task-sequence, ros-iron-rmf-traffic, ros-iron-rmf-traffic-editor, ros-iron-rmf-traffic-editor-assets, ros-iron-rmf-traffic-editor-test-maps, ros-iron-rmf-traffic-examples, ros-iron-rmf-traffic-msgs, ros-iron-rmf-traffic-ros2, ros-iron-rmf-utils, ros-iron-rmf-visualization, ros-iron-rmf-visualization-building-systems, ros-iron-rmf-visualization-fleet-states, ros-iron-rmf-visualization-floorplans, ros-iron-rmf-visualization-msgs, ros-iron-rmf-visualization-navgraphs, ros-iron-rmf-visualization-obstacles, ros-iron-rmf-visualization-rviz2-plugins, ros-iron-rmf-visualization-schedule, ros-iron-rmf-websocket, ros-iron-rmf-workcell-msgs, ros-iron-ros-workspace
+Description: A package to aggregate the packages required for a minimal installation of Open-RMF
