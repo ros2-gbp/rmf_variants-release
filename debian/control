@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-dev
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-cmake-catch2, ros-humble-menge-vendor, ros-humble-nlohmann-json-schema-validator-vendor, ros-humble-pybind11-json-vendor, ros-humble-rmf-api-msgs, ros-humble-rmf-battery, ros-humble-rmf-building-map-msgs, ros-humble-rmf-building-map-tools, ros-humble-rmf-building-sim-common, ros-humble-rmf-building-sim-gz-classic-plugins, ros-humble-rmf-building-sim-gz-plugins, ros-humble-rmf-charger-msgs, ros-humble-rmf-dispenser-msgs, ros-humble-rmf-door-msgs, ros-humble-rmf-fleet-adapter, ros-humble-rmf-fleet-adapter-python, ros-humble-rmf-fleet-msgs, ros-humble-rmf-ingestor-msgs, ros-humble-rmf-lift-msgs, ros-humble-rmf-obstacle-msgs, ros-humble-rmf-robot-sim-common, ros-humble-rmf-robot-sim-gz-classic-plugins, ros-humble-rmf-robot-sim-gz-plugins, ros-humble-rmf-scheduler-msgs, ros-humble-rmf-site-map-msgs, ros-humble-rmf-task, ros-humble-rmf-task-msgs, ros-humble-rmf-task-ros2, ros-humble-rmf-task-sequence, ros-humble-rmf-traffic, ros-humble-rmf-traffic-editor, ros-humble-rmf-traffic-editor-assets, ros-humble-rmf-traffic-editor-test-maps, ros-humble-rmf-traffic-examples, ros-humble-rmf-traffic-msgs, ros-humble-rmf-traffic-ros2, ros-humble-rmf-utils, ros-humble-rmf-visualization, ros-humble-rmf-visualization-building-systems, ros-humble-rmf-visualization-fleet-states, ros-humble-rmf-visualization-floorplans, ros-humble-rmf-visualization-msgs, ros-humble-rmf-visualization-navgraphs, ros-humble-rmf-visualization-obstacles, ros-humble-rmf-visualization-rviz2-plugins, ros-humble-rmf-visualization-schedule, ros-humble-rmf-websocket, ros-humble-rmf-workcell-msgs, ros-humble-ros-workspace
+Description: A package to aggregate the packages required for a minimal installation of Open-RMF
