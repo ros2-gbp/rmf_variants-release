@@ -1,0 +1,8 @@
+ros-rolling-rmf-dev (0.0.1-2noble) noble; urgency=high
+
+  * Define rmf_dev variant
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.org>  Wed, 07 Jun 2023 00:00:00 -0000
+
+
