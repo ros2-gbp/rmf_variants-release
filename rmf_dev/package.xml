@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rmf_dev</name>
+  <version>0.0.1</version>
+  <description>A package to aggregate the packages required for a minimal installation of Open-RMF</description>
+  <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ament_cmake_catch2 repo -->
+  <exec_depend>ament_cmake_catch2</exec_depend>
+
+  <!-- menge_vendor repo -->
+  <exec_depend>menge_vendor</exec_depend>
+
+  <!-- nlohmann_json_schema_validator_vendor repo -->
+  <exec_depend>nlohmann_json_schema_validator_vendor</exec_depend>
+
+  <!-- pybind11_json_vendor repo -->
+  <exec_depend>pybind11_json_vendor</exec_depend>
+
+  <!-- rmf_api_msgs repo -->
+  <exec_depend>rmf_api_msgs</exec_depend>
+
+  <!-- rmf_battery repo -->
+  <exec_depend>rmf_battery</exec_depend>
+
+  <!-- rmf_building_map_msgs repo -->
+  <exec_depend>rmf_building_map_msgs</exec_depend>
+
+  <!-- rmf_internal_msgs repo -->
+  <exec_depend>rmf_charger_msgs</exec_depend>
+  <exec_depend>rmf_dispenser_msgs</exec_depend>
+  <exec_depend>rmf_door_msgs</exec_depend>
+  <exec_depend>rmf_fleet_msgs</exec_depend>
+  <exec_depend>rmf_ingestor_msgs</exec_depend>
+  <exec_depend>rmf_lift_msgs</exec_depend>
+  <exec_depend>rmf_obstacle_msgs</exec_depend>
+  <exec_depend>rmf_scheduler_msgs</exec_depend>
+  <exec_depend>rmf_site_map_msgs</exec_depend>
+  <exec_depend>rmf_task_msgs</exec_depend>
+  <exec_depend>rmf_traffic_msgs</exec_depend>
+  <exec_depend>rmf_workcell_msgs</exec_depend>
+
+  <!-- rmf_ros2 repo -->
+  <exec_depend>rmf_fleet_adapter</exec_depend>
+  <exec_depend>rmf_fleet_adapter_python</exec_depend>
+  <exec_depend>rmf_task_ros2</exec_depend>
+  <exec_depend>rmf_traffic_ros2</exec_depend>
+  <exec_depend>rmf_websocket</exec_depend>
+
+  <!-- rmf_simulation repo -->
+  <exec_depend>rmf_building_sim_common</exec_depend>
+  <exec_depend>rmf_building_sim_gz_classic_plugins</exec_depend>
+  <exec_depend>rmf_building_sim_gz_plugins</exec_depend>
+  <exec_depend>rmf_robot_sim_common</exec_depend>
+  <exec_depend>rmf_robot_sim_gz_classic_plugins</exec_depend>
+  <exec_depend>rmf_robot_sim_gz_plugins</exec_depend>
+
+  <!-- rmf_task repo -->
+  <exec_depend>rmf_task</exec_depend>
+  <exec_depend>rmf_task_sequence</exec_depend>
+
+  <!-- rmf_traffic repo -->
+  <exec_depend>rmf_traffic</exec_depend>
+  <exec_depend>rmf_traffic_examples</exec_depend>
+
+  <!-- rmf_traffic_editor repo -->
+  <exec_depend>rmf_building_map_tools</exec_depend>
+  <exec_depend>rmf_traffic_editor</exec_depend>
+  <exec_depend>rmf_traffic_editor_assets</exec_depend>
+  <exec_depend>rmf_traffic_editor_test_maps</exec_depend>
+
+  <!-- rmf_utils repo -->
+  <exec_depend>rmf_utils</exec_depend>
+
+  <!-- rmf_visualization repo -->
+  <exec_depend>rmf_visualization</exec_depend>
+  <exec_depend>rmf_visualization_building_systems</exec_depend>
+  <exec_depend>rmf_visualization_fleet_states</exec_depend>
+  <exec_depend>rmf_visualization_floorplans</exec_depend>
+  <exec_depend>rmf_visualization_navgraphs</exec_depend>
+  <exec_depend>rmf_visualization_obstacles</exec_depend>
+  <exec_depend>rmf_visualization_rviz2_plugins</exec_depend>
+  <exec_depend>rmf_visualization_schedule</exec_depend>
+
+  <!-- rmf_visualization_msgs repo -->
+  <exec_depend>rmf_visualization_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
