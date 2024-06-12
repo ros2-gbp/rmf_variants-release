@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rmf_dev</name>
-  <version>0.0.1</version>
+  <version>0.2.0</version>
   <description>A package to aggregate the packages required for a minimal installation of Open-RMF</description>
   <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
   <license>Apache License 2.0</license>
@@ -52,11 +52,8 @@
   <exec_depend>rmf_websocket</exec_depend>
 
   <!-- rmf_simulation repo -->
-  <exec_depend>rmf_building_sim_common</exec_depend>
-  <exec_depend>rmf_building_sim_gz_classic_plugins</exec_depend>
   <exec_depend>rmf_building_sim_gz_plugins</exec_depend>
   <exec_depend>rmf_robot_sim_common</exec_depend>
-  <exec_depend>rmf_robot_sim_gz_classic_plugins</exec_depend>
   <exec_depend>rmf_robot_sim_gz_plugins</exec_depend>
 
   <!-- rmf_task repo -->
