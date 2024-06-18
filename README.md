@@ -1,3 +1,26 @@
+## rmf_variants (jazzy) - 0.1.0-1
+
+The packages in the `rmf_variants` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy rmf_variants` on `Tue, 18 Jun 2024 20:45:53 -0000`
+
+The `rmf_dev` package was released.
+
+Version of package(s) in repository `rmf_variants`:
+
+- upstream repository: https://github.com/open-rmf/rmf_variants.git
+- release repository: https://github.com/ros2-gbp/rmf_variants-release.git
+- rosdistro version: `0.0.1-3`
+- old version: `0.0.1-3`
+- new version: `0.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## rmf_variants (rolling) - 0.2.0-1
 
 The packages in the `rmf_variants` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling rmf_variants` on `Wed, 12 Jun 2024 18:27:59 -0000`
