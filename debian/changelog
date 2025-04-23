@@ -1,0 +1,21 @@
+ros-kilted-rmf-dev (0.2.0-2noble) noble; urgency=high
+
+
+
+ -- Yadunund <yadunund@openrobotics.org>  Thu, 13 Jun 2024 05:00:00 -0000
+
+ros-kilted-rmf-dev (0.1.0-2noble) noble; urgency=high
+
+  * Drop gazebo classic packages (#1 <https://github.com/open-rmf/rmf_variants/pull/1>)
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.org>  Thu, 13 Jun 2024 05:00:00 -0000
+
+ros-kilted-rmf-dev (0.0.1-2noble) noble; urgency=high
+
+  * Define rmf_dev variant
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.org>  Wed, 07 Jun 2023 05:00:00 -0000
+
+
