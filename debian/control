@@ -1,0 +1,12 @@
+Source: ros-kilted-rmf-dev
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rmf-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-cmake-catch2, ros-kilted-menge-vendor, ros-kilted-nlohmann-json-schema-validator-vendor, ros-kilted-pybind11-json-vendor, ros-kilted-rmf-api-msgs, ros-kilted-rmf-battery, ros-kilted-rmf-building-map-msgs, ros-kilted-rmf-building-map-tools, ros-kilted-rmf-building-sim-gz-plugins, ros-kilted-rmf-charger-msgs, ros-kilted-rmf-dispenser-msgs, ros-kilted-rmf-door-msgs, ros-kilted-rmf-fleet-adapter, ros-kilted-rmf-fleet-adapter-python, ros-kilted-rmf-fleet-msgs, ros-kilted-rmf-ingestor-msgs, ros-kilted-rmf-lift-msgs, ros-kilted-rmf-obstacle-msgs, ros-kilted-rmf-robot-sim-common, ros-kilted-rmf-robot-sim-gz-plugins, ros-kilted-rmf-scheduler-msgs, ros-kilted-rmf-site-map-msgs, ros-kilted-rmf-task, ros-kilted-rmf-task-msgs, ros-kilted-rmf-task-ros2, ros-kilted-rmf-task-sequence, ros-kilted-rmf-traffic, ros-kilted-rmf-traffic-editor, ros-kilted-rmf-traffic-editor-assets, ros-kilted-rmf-traffic-editor-test-maps, ros-kilted-rmf-traffic-examples, ros-kilted-rmf-traffic-msgs, ros-kilted-rmf-traffic-ros2, ros-kilted-rmf-utils, ros-kilted-rmf-visualization, ros-kilted-rmf-visualization-building-systems, ros-kilted-rmf-visualization-fleet-states, ros-kilted-rmf-visualization-floorplans, ros-kilted-rmf-visualization-msgs, ros-kilted-rmf-visualization-navgraphs, ros-kilted-rmf-visualization-obstacles, ros-kilted-rmf-visualization-rviz2-plugins, ros-kilted-rmf-visualization-schedule, ros-kilted-rmf-websocket, ros-kilted-rmf-workcell-msgs, ros-kilted-ros-workspace
+Description: A package to aggregate the packages required for a minimal installation of Open-RMF
