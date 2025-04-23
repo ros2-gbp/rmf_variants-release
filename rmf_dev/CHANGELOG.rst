@@ -2,6 +2,9 @@
 Changelog for package rmf_dev
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2024-06-13)
+------------------
+
 0.1.0 (2024-06-13)
 ------------------
 * Drop gazebo classic packages (`#1 <https://github.com/open-rmf/rmf_variants/pull/1>`_)
